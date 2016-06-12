@@ -1,7 +1,0 @@
-﻿1. http://localhost:8080/foodAPI/oauth/token?grant_type=password&client_id=restapp&client_secret=restapp&username=cthuyvy&password=vy081095
-
-2. http://localhost:8080/foodAPI/oauth/token?client_id=restapp&client_secret=restapp&grant_type=refresh_token&refresh_token=904fa833-54ca-4802-83ca-03c29bd9e869
-
-3.
-http://localhost:8080/foodAPI/search/10?access_token=458254c7-362b-4b96-9064-c1c83cf63c9b
-
