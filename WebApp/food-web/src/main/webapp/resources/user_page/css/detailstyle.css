@@ -1,0 +1,248 @@
+.style-thumbnail{
+	margin-top: 50px;
+	border-radius: 45px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+	color: rgba(241, 0, 0, 0.9);
+	margin-right: 10px;
+}
+.style-thumbnail a img{
+	height: 250px;
+	width: auto;
+}
+
+.style-thumbnail a{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.description a, .material a, .tutorial a{
+	color: coral;
+    text-decoration: none;
+} 
+.description a:hover, .material a:hover, .tutorial a:hover{
+	color: #fff;
+    text-decoration: none;
+}  
+.description h1, .material h3, .tutorial h3, #otherFood h2{
+    font-weight: 700;
+}
+.material h3, .tutorial h3{
+	color: skyblue;
+}
+.description h1{
+    color: springgreen;
+}
+#otherFood h2{
+    color: #FED454;
+}
+.pattrn{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgba(0,0,0,.2);
+}
+
+.tutorial {
+	background-color: #f4f4f4;
+	padding-bottom: 50px;
+}
+
+.material {
+	margin-top:10px;
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+#otherFood {
+	text-align: center;
+}
+
+
+.description {
+	margin-top:50px;
+	color: #FFFFFF;
+	padding-bottom: 10px;
+}
+
+.style-box{
+	background:transparent;
+	border-radius: 45px;
+	box-sizing: border-box;    
+	font-size: 14px;
+    line-height: 1.42857143;
+    color: #FFFFFF;
+    text-align: -webkit-match-parent;
+}
+@media (min-width: 768px) {
+  .tutorial img {
+	width: 550px;
+	height: auto;
+  }
+}
+@media (min-width: 992px) {
+  .tutorial img{
+	width: 550px;
+	height: auto;
+  }
+}
+@media (min-width: 1200px) {
+ .tutorial img {
+	width: 700px;
+	height: auto;
+  }
+}
+@media (min-width: 1330px) {
+ .tutorial img{
+	width: 820px;
+	height: auto;
+}
+.container-detail{
+	padding-left: 15px; 
+	padding-right: 15px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+@media (min-width: 1330px) {
+  .container-detail {
+    width: 1300px;
+  }
+}
+
+/*************************
+********Search CSS********
+**************************/
+.search-container .col-md-3{
+  padding:20px 15px 10px 15px;
+}
+.food-item{
+  max-width:245px;
+  margin:auto;
+  margin-top: 10px;
+  position:relative;
+  overflow:hidden;
+  border-radius: 3%;
+  border:1px solid #000000;  
+  text-align: left;
+}
+.food-item img{
+  height: 230px;
+  width: 245px;
+}
+
+figcaption{
+  text-align:center;
+  text-transform:uppercase;
+  width:100%;
+  height:110px;
+  border:1px solid #fff;
+  border-top-color:transparent;
+  margin:0;
+}
+figcaption h4{
+  font-size:110%;
+  font-weight:700;
+  padding-top:10px;
+}
+figcaption p{
+  font-size: 1.000em;
+}
+.social-buttons{
+  display:inline-block;
+  margin:auto;
+  text-align:center;
+  width:100%;
+}
+
+.food-item .search-detail-container,
+.food-item .search-detail-container .search-detail-box{
+  -webkit-transition:all .25s;
+     -moz-transition:all .25s;
+      -ms-transition:all .25s;
+       -o-transition:all .25s;
+          transition:all .25s;
+}
+
+.food-item .search-detail-container {
+  position: absolute;
+  top: 0px;
+  margin: 0 auto;
+  left: 0;
+}
+.food-item:hover .search-detail-container{
+  background: rgba(0,0,0,.5);
+}
+.food-item .search-detail-container .search-detail-btn{
+  overflow: hidden;
+  position: relative;
+  width:245px;
+  height: 230px;
+}
+.food-item .search-detail-container .search-detail-box{
+  position: absolute;
+
+}
+
+.food-item .search-detail-container .description-container a{
+   color: #fff;
+   width: 220px;
+   height: 165px;
+}
+.food-item .search-detail-container .description-container a h3{
+   color: #fff;
+   width: 220px;
+}
+.food-item .search-detail-container .description-container a p{
+  width: 220px;
+  height: 165px;
+
+}
+.food-item .search-detail-container .description-container a:hover{
+  text-decoration: none;
+}
+.food-item .search-detail-container .description-container a:focus{
+  outline:none;
+  outline-offset: 0;
+  text-decoration:none;  
+  background: transparent;
+}
+.food-item .search-detail-container .description-container{
+  top: -500px;
+  left: -500px;
+}
+.food-item:hover .search-detail-container .description-container{
+  top: -10px;
+  left: 10px;
+}
+
+.food-item figure,
+.food-item figcaption,
+.food-item img{
+  
+  -webkit-transition:all .25s;
+     -moz-transition:all .25s;
+      -ms-transition:all .25s;
+       -o-transition:all .25s;
+          transition:all .25s;
+}
+.food-item:hover figure{
+  background-color:#3498db;
+  color:#fff;
+}
+.food-item:hover figcaption{
+  border-color:#3498db;
+  color:#fff;
+}
+figure a{
+	color: springgreen;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 1000;
+}
+figure a:hover{
+	color: #000000;
+    text-decoration: none;
+}
+figure a:focus{
+	color: #000000;
+    text-decoration: none;
+}
